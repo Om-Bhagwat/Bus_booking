@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../css/flexstyle.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FlexBox</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">BooFlex</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bootstrap(coming soon)</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Properties
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="index.html">FlexDirection</a>
+                            <a class="dropdown-item" href="flexwrap.html">FlexWrap</a>
+                            <a class="dropdown-item" href="justify.html">JustifyContent</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+    </header>
+
+    <body>
+        <div class="flex container e" id="ok">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <div class="flex container u">
+                    <input type="radio" id="aq" name="flexw" value="fr">
+                    <label>wrap</label><br>
+                    <input type="radio" id="aw" name="flexw" value="frr">
+                    <label>noWrap</label><br>
+                    <input type="radio" id="ae" name="flexw" value="fc">
+                    <label>wrap-reverse</label>
+                </div>
+            </div>
+        </div>
+        <div class="row op">
+            <div class="col-xs-12 col-md-12 ou">
+                <p id="info">
+                    Nulla facilisi. Mauris ac nulla ipsum. Suspendisse sagittis leo vel mollis malesuada. Maecenas
+                    lacinia feugiat tempus. Ut nec tortor odio. Sed at ex cursus, rhoncus diam vitae, lobortis odio.
+                    Pellentesque feugiat congue lobortis. Quisque posuere aliquam tempus. Pellentesque enim risus,
+                    vehicula at gravida eu, semper et nisi. Maecenas scelerisque ultrices magna a placerat. Vivamus
+                    ligula diam, blandit at interdum sit amet, interdum a arcu.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <div class="flex container">
+                    <div class="yyt">
+                        <input class="form-control" id="tg" type="text" placeholder="flexWrap : wrap" readonly>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="t">
+            <button class="btn btn-primary" onclick="myfunction();onfunction()">
+                click
+            </button>
+        </div>
+        <script>
+            function myfunction() {
+                if (document.getElementById("aq").checked) {
+                    document.getElementById("ok").style.flexWrap = "wrap";
+                }
+                else if (document.getElementById("aw").checked) {
+                    document.getElementById("ok").style.flexWrap = "nowrap";
+                }
+                else if (document.getElementById("ae").checked) {
+                    document.getElementById("ok").style.flexWrap = "wrap-reverse";
+                }
+            }
+
+            function onfunction() {
+
+                if (document.getElementById('aq').checked) {
+                    document.getElementById('info').innerHTML = "Nulla facilisi. Mauris ac nulla ipsum. Suspendisse sagittis leo vel mollis malesuada. Maecenas lacinia feugiat tempus. Ut nec tortor odio. Sed at ex cursus, rhoncus diam vitae, lobortis odio. Pellentesque feugiat congue lobortis. Quisque posuere aliquam tempus. Pellentesque enim risus, vehicula at gravida eu, semper et nisi. Maecenas scelerisque ultrices magna a placerat. Vivamus ligula diam, blandit at interdum sit amet, interdum a arcu.";
+                    document.getElementById("tg").placeholder = "flexWrap : wrap";
+                }
+                else if (document.getElementById('aw').checked) {
+                    document.getElementById('info').innerHTML = "Nullam dolor quam, faucibus a blandit a, suscipit ut turpis. Nam dapibus massa sem, eget euismod turpis eleifend eget. Nam et nunc diam. Phasellus sit amet bibendum nisl. Etiam id est ut sem interdum lacinia. Vestibulum ut erat egestas, viverra lorem non, euismod lorem. Integer tempor ullamcorper dolor pretium ultricies. In fringilla libero at mauris pharetra commodo. In pretium porta velit, eget scelerisque tellus. Pellentesque dignissim ligula quam, sed aliquam mi rutrum in. Nunc a urna dictum, maximus mauris id, faucibus eros. Fusce interdum felis non interdum feugiat. Quisque purus odio, convallis et metus semper, imperdiet accumsan neque. Ut sodales velit lectus.";
+                    document.getElementById("tg").placeholder = "flexWrap : no-wrap";
+                }
+                else if (document.getElementById('ae').checked) {
+                    document.getElementById('info').innerHTML = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+                    document.getElementById("tg").placeholder = "flexWrap : wrap-reverse";
+                }
+            }
+        </script>
+    </body>
+</body>
+
+</html>

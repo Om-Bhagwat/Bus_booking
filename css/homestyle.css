@@ -1,0 +1,12 @@
+
+.rty{
+    color:green;
+}
+#w{
+    background-color: #cccccc;
+    background-image: url(https://images.pexels.com/photos/919606/pexels-photo-919606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}

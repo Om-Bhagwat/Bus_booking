@@ -1,0 +1,83 @@
+.pic{
+    width: 100vw;
+    padding: 20px;
+    background-position: center;
+    background-color:  pink;
+}
+.nav{
+    width:100vw;
+    height:10vh;
+    background-color: green;
+}
+.f{
+    display:flex;
+    background-color:rgb(226, 240, 167);
+    box-shadow: 2px 3px rgb(109, 180, 76);
+    border-radius: 20px;
+}
+.e{
+    padding:10px;
+    height:180px;
+    box-shadow:2px 3px rgb(57, 143, 241);
+    background-color: rgb(12, 199, 180);
+    border-radius: 5px;
+}
+.r{
+    padding:10px;
+    text-align: center;
+}
+.g{
+    padding:10px;
+    height:180px;
+    box-shadow:2px 3px rgb(57, 143, 241);
+    background-color: rgb(12, 199, 180);
+    border-radius: 5px;
+}
+.k{
+    padding:10px;
+    text-align: center;
+}
+.d{
+    padding:10px;
+    height:180px;
+    box-shadow:2px 3px rgb(57, 143, 241);
+    background-color: rgb(12, 199, 180);
+    border-radius: 5px;
+}
+.o{
+    padding:10px;
+    text-align: center;
+}
+.u{
+    justify-content:center;
+    text-align: center;
+    padding:10px;
+}
+.op{
+    justify-content: center;
+    text-align: center;
+}   
+.ou{
+    padding:20px;
+}
+.et{
+    justify-content: center;
+}
+#inputf{
+    width:30vw;
+}
+#ty{
+    text-align: center;
+    justify-content: center;
+}
+#tg{
+    width:60vw;
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+}
+.yyt{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
