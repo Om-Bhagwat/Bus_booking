@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contactstyle.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Booking</title>
+    <title>Contact Us</title>
 </head>
 
 <body>
@@ -32,35 +32,26 @@
             </div>
         </nav>
     </header>
-    <div class="booking-form-box">
-        <div class="radio-btn">
-            <input type="radio" class="btn" name="check" checked="checked"><span>Roundtrip</span>
-            <input type="radio" class="btn" name="check"><span>One Way</span>
-            <input type="radio" class="btn" name="check"><span>Multicity</span>
-        </div>
-        <div class="booking-form">
-            <label><strong>From</strong></label>
-            <input type="text" class="form-control" placeholder="city">
-            <label><strong>To</strong></label>
-            <input type="text" class="form-control" placeholder="city">
-            <div class="input-grp">
-                <label>Departing</label>
-                <input type="date" class="form-control select-date">
+    <div class="flex-container">
+        <div class="main row">
+            <div class="left-side col-xs-12 col-md-6">
+                <img
+                    src="https://images.unsplash.com/photo-1591287434500-a1d4a0bdf208?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
             </div>
-            <div class="input-grp">
-                <label>Returning</label>
-                <input type="date" class="form-control select-date">
-            </div>
-            <div class="input-grp">
-                <label>Adults</label>
-                <input type="number" class="form-control" value="1">
-            </div>
-            <div class="input-grp">
-                <label>Children</label>
-                <input type="number" class="form-control" value="0">
-            </div>
-            <div class="input-grp bt">
-                <button type="button" class="btn btn-primary bus">Show</button>
+            <div class="right-side col-xs-12 col-md-6">
+                <hr>
+                <hr>
+                <h1>Contact</h1>
+                <div>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter your message" required>
+                </div>
+                <button class="btn btn-primary">Submit</button>
             </div>
         </div>
     </div>

@@ -1,96 +1,74 @@
-.pic{
-    width: 100vw;
-    padding: 20px;
-    background-position: center;
-    background-color:  pink;
+.background_pic
+{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,226,250,1) 0%, rgba(204,240,245,1) 100%);
+    height: 80vh;
+    width:100%;
 }
-.nav{
-    width:100vw;
-    height:10vh;
-    background-color: green;
-}
-.f{
-    display:flex;
-    background-color:rgb(226, 240, 167);
-    box-shadow: 2px 3px rgb(109, 180, 76);
-    border-radius: 20px;
-}
-.e{
-    padding:10px;
-    height:180px;
-    box-shadow:2px 3px rgb(57, 143, 241);
-    background-color: rgb(12, 199, 180);
-    border-radius: 5px;
-}
-.r{
-    padding:10px;
-    text-align: center;
-}
-.g{
-    padding:10px;
-    height:180px;
-    box-shadow:2px 3px rgb(57, 143, 241);
-    background-color: rgb(12, 199, 180);
-    border-radius: 5px;
-}
-.k{
-    padding:10px;
-    text-align: center;
-}
-.d{
-    padding:10px;
-    height:180px;
-    box-shadow:2px 3px rgb(57, 143, 241);
-    background-color: rgb(12, 199, 180);
-    border-radius: 5px;
-}
-.o{
-    padding:10px;
-    text-align: center;
-}
-.u{
-    justify-content:center;
-    text-align: center;
-    padding:10px;
-}
-.op{
-    justify-content: center;
-    text-align: center;
-}   
-.ou{
-    padding:20px;
-}
-.et{
-    justify-content: center;
-}
-#inputf{
-    width:30vw;
-}
-#ty{
-    text-align: center;
-    justify-content: center;
-}
-#tg{
-    width:60vw;
-    justify-content: center;
-    text-align: center;
-    background-position: center;
-}
-.yyt{
-    display:flex;
-    justify-content: center;
-    text-align: center;
-}
-.uoi{
+.headline{
     display: flex;
     justify-content: center;
-    background-color: DodgerBlue;
 }
-.uoi > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
+.headline>h3{
+    font-size: 1.5rem;
+    margin-top:10px;
+}
+.oj{
+    display:flex;
+    justify-content: center;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    margin:10px;
+    flex-wrap: wrap;
+    font-size:1.5vw;
+    margin-top:40px;
   }
+.gallery{
+    text-align: center;
+    margin-bottom:5px;
+  }
+  .gallery_line{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .gallery_line>div{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,173,219,1) 100%, rgba(0,76,92,1) 100%);
+    height: 4px;
+    width:120px;
+  }
+  .hmm{
+      text-align: center;
+  }
+  .why_us_heading{
+    text-align: center;
+    margin-top:15px;
+}
+.why_us_underline{
+    background: rgba(0,212,255,1);
+    align-items: center;
+    height:5px;
+    width:150px;
+    margin-left:45.5%;
+    border-radius: 5px;
+}
+.why_us{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:10px;
+    flex-wrap: wrap;
+}
+.why_us >div{
+    margin:20px;
+    background-color: rebeccapurple;
+}
+.card{
+   
+    box-shadow: 10px 10px 8px 10px #e6e6e6;
+}
+.other{
+    display: flex;
+    justify-content: center;
+}

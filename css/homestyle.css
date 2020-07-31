@@ -1,12 +1,114 @@
+.nav{
+    position: fixed;
+    height: 80px;
+}
+.background_image{
+    margin-top:0px;
+    height:700px;
+    background-attachment: fixed;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,84,138,1) 49%, rgba(0,212,255,1) 100%);
+}
+.title_container{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.title{
+    margin-top:320px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;;
+    font-weight: 300;
+    color:whitesmoke;
+}
+.book_btn{
+    height: 40px;
+    width:140px;
+}
+.why_us_heading{
+    text-align: center;
+    margin-top:15px;
+}
+.why_us_underline{
+    background: rgba(0,212,255,1);
+    align-items: center;
+    height:5px;
+    width:150px;
+    margin-left:45.5%;
+    border-radius: 5px;
+}
+.why_us{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:10px;
+    flex-wrap: wrap;
+}
+.why_us >div{
+    margin:20px;
+    background-color: rebeccapurple;
+}
+.card{
+    box-shadow: 10px 10px 8px 10px #e6e6e6;
+}
+.quote{
+    background: rgb(206, 209, 218);
+    background: linear-gradient(90deg, rgb(230, 231, 236) 0%, rgba(235,235,235,1) 100%, rgba(0,76,92,1) 100%);
+    justify-content: center;
+    box-shadow: 10px 10px 8px 10px #e6e6e6;
+}
+.quote >div{
+    padding:30px;
+    font-size: 1rem;
+}
+.test_cont {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    width:500px;
+  }
+  
+  /* Clear floats after containers */
+  .test_cont::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+  .test_cont img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Increase the font-size of a span element */
+  .test_cont span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+  /*@media (max-width: 500px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }*/
+  .testimonials{
+      display: flex;
+      justify-content: center;
+  }
+  .testimonials >div{
+      margin:10px;
+      margin-top:15px;
+  }
 
-.rty{
-    color:green;
-}
-#w{
-    background-color: #cccccc;
-    background-image: url(https://images.pexels.com/photos/919606/pexels-photo-919606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-repeat: no-repeat;
-    height: 700px;
-    background-position: center;
-    background-size: cover;
-}
+
